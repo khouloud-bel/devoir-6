@@ -1,0 +1,243 @@
+header{
+    display: flex;
+    background-color:white;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    height:80px;
+    
+    
+    
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.navbar{
+    background-color:white;
+    color: rgb(245, 170, 207);
+    flex: 1;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.order{
+    background-color: rgb(245, 170, 207);
+    border-radius: 20%;
+    color: white;
+    border: none;
+    font-weight: bold;
+    height: 50px;
+    width: 60px ;
+    padding: 20%;
+}
+
+body{
+    background-color:white;
+    margin: 0;
+}
+
+.section1{
+    text-align: center;
+    background-color:beige;
+    padding: 20px;
+}
+
+.order2{
+    background-color: rgb(245, 170, 207);
+    border-radius: 20%;
+    color: white;
+    border: none;
+    font-weight: bold;
+    height: 40px;
+    width: 80px ;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cardcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    gap: 60px;
+
+}
+
+.smallcontainer{
+    background-color: beige;
+    border-radius: 10px;
+    width: 250px;
+    position: relative;
+    height: 400px;
+    text-align: center;
+    color:black;
+}
+
+.smallcontainer img{
+    width: 100%;
+    height: 150px;
+    border-radius: 6px;
+}
+
+.card h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.smallcontainer button{
+    position:absolute;
+    bottom: 10%;
+    left: 35%;
+    border-radius: 20%;
+    background-color: rgb(245, 170, 207);
+    color: white;
+    height: 60px;
+    width: 70px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.visitspace{
+    flex: 1;
+    max-width: 400px;
+
+}
+.visitspace button{
+    background-color:rgb(245, 170, 207) ;
+    border-radius: 40%;
+    background-color: rgb(245, 170, 207);
+    color: white;
+    height: 40px;
+    width: 60px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+    
+}
+.visitspace h2{
+    font-weight: bold;
+    font-size:xx-large;
+    
+}
+.visitspace p{
+    font-size: larger;
+}
+
+.visitsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.imagespace{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    flex: 1;
+    max-width: 500px;
+}
+.imagespace img{
+    width: 45%;
+    height: 170px;
+    border-radius: 10%;
+
+}
+
+.formul{
+    background-color: blanchedalmond;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 15%;
+    padding: 2%;
+
+}
+
+.formul h2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+.formul label{
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+}
+
+
+.formul input{
+    background-color: antiquewhite;
+    width: 35%;
+    height: 30%;
+    border-color: black;
+    
+    
+   
+    
+}
+
+.formul option{
+    background-color: antiquewhite;
+    width: 35%;
+    height: 30%;
+   
+    
+}
+
+
+.formul p{
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.694);
+}
+
+.send{
+    background-color:rgb(245, 170, 207) ;
+    border-radius: 20%;
+    
+    color: white;
+    height: 10px;
+    width: 30px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+footer{
+    background-color: beige;
+    margin: 0;
+    color: rgb(245, 170, 207) ;
+    text-align: center;
+    height: 60px;
+    padding: 10px;
+}
+footer p{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
